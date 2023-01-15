@@ -29,6 +29,7 @@ li{
 }
 div img{
     width: 75%;
+    padding-bottom: 2em;
 }
 .banner-contents{
     margin-left: 25em;
@@ -52,4 +53,45 @@ header{
     font-size: 1vw;
     font-weight: 600;
     margin-bottom: 3em;
+}
+.half-photos{
+    margin-top: 4em;
+    display: flex;
+}
+.half-photos img{
+    width: 250px;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+.rest-photos{
+    display: flex;
+}
+.rest-photos img{
+    width: 250px;
+    padding-right: 1em;
+}
+.photos{
+    padding-left: 12em;
+}
+.first-part-title{
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+.grey-title{
+    color: grey;
+}
+.orange-title{
+    color: rgb(240, 99, 17);
+    font-weight: 900;
+}
+.first-part-description{
+    color: grey;
+}
+.features-1st-part{
+    display: flex;
+    align-items: center;
+}
+.first-part-contents{
+    padding-left: 3em;
+    padding-right: 15em;
 }
