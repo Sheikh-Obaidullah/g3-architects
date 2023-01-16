@@ -36,7 +36,7 @@ div img{
     margin-right: 25em;
 }
 header{
-    background-color: rgba(255, 144, 14, 0.1);;
+    background-color: rgba(255, 144, 14, 0.1);
 }
 .banner{
     text-align: center;
@@ -129,7 +129,7 @@ header{
     font-style: normal;
     font-size: 3.5vw;
     font-weight: 600;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     text-align: center;
     padding-left: 0;
     padding-right: 0.5em;
@@ -138,4 +138,98 @@ header{
 .btn{
     font-size: 1vw;
     font-weight: 600;
+}
+.facts{
+    margin-left: 10em;
+    margin-right: 40em;
+}
+.facts-title{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.facts-description{
+    color: grey;
+}
+.award{
+    width: 2em;
+}
+.awards{
+    border: 1px solid rgb(240, 99, 17);
+    margin-right: 4em;
+    padding-top: 2em;
+    padding-right: 1em;
+    text-align: center;
+}
+.project{
+    width: 2em;
+}
+.projects{
+    border: 1px solid rgb(240, 99, 17);
+    margin-right: 4em;
+    padding-top: 2em;
+    padding-right: 1em;
+    text-align: center;
+}
+.client{
+    width: 2em;
+}
+.clients{
+    border: 1px solid rgb(240, 99, 17);
+    margin-right: 4em;
+    padding-top: 2em;
+    padding-right: 1em;
+    text-align: center;
+}
+.gmail{
+    width: 2em;
+}
+.email{
+    border: 1px solid rgb(240, 99, 17);
+    margin-right: 4em;
+    padding-top: 2em;
+    text-align: center;
+    padding-right: 1em;
+}
+.achievements{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+}
+.number{
+    font-size: 2vw;
+    font-weight: 800;
+    color: #424242;
+}
+.sponsors{
+    width: 10%;
+    mix-blend-mode: luminosity;
+    margin-left: 5em;
+}
+.sponsors-detail{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+.sponsor-title{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.sponsor-description{
+    color: grey;
+}
+.logo{
+    margin-left: 7em;
+}
+footer{
+    padding-top: 1.5em;
+    border-radius: 5px;
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 3em;
+    width: 75%;
+    margin-top: 3em;
+    margin-left: 10em;
+    text-align: center;
 }
